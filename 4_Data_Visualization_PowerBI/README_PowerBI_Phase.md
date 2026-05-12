@@ -119,7 +119,7 @@ Import the following data sources from `2_select_queries_to_powerbi.sql`:
 - Complex transformations are applied in Power BI for better control
 - No unnecessary columns retained from source
 
-![Overview](4_Data_visualization_PowerBI/1P.png)
+![Overview](/4_Data_Visualization_PowerBI/PowerQuery.png)
 
 ---
 
@@ -167,7 +167,7 @@ dim_date (dimension for all date fields)
 - USERELATIONSHIP() enables selective relationship activation in measures
 - 1:N cardinality optimizes performance and avoids aggregation errors
 
-![Overview](4_Data_visualization_PowerBI/modeling.png)
+![Overview](/4_Data_Visualization_PowerBI/modeling.png)
 
 ---
 
