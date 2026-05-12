@@ -68,18 +68,19 @@ startup-ecosystem-analytics/
 ├── 1_Data/
 │   ├── raw/                        # 11 original CSV files from Kaggle
 │   └── cleaned/                    # 6 cleaned tables exported from Python
-│
+│   └── README.md
 ├── 2_Data_Preparation_Python/
 │   └── 01_data_cleaning_eda.ipynb  # Full cleaning pipeline + EDA summary
-│
+│    └──README.md
 ├── 3_Database_SQL_Server/
 │   ├── 01_database_setup.sql       # CREATE DATABASE + inspection queries
-│   ├── 02_data_cleaning.sql        # Orphan cleanup + FK constraints
-│   └── 03_analytical_queries.sql   # SELECT queries used as Power BI source
-│
+│   ├── 02_analytical_queries.sql   # SELECT queries used as Power BI source
+│   └── 03_README.me
+│   └──diagram.png
 ├── 4_Data_Visualization_PowerBI/
 │   └── startup_ecosystem.pbix      # Power BI file — model + DAX + dashboard
-│
+│    └── Dashboard_Screenshot
+|     └── README.md
 ├── Project_Overview.pdf            # Full project documentation
 └── README.md
 ```
