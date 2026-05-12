@@ -39,7 +39,7 @@ The schema follows a **hub-and-spoke architecture** with `cleaned_objects` as th
 
 ### Entity Relationship Diagram
 
-![Database Schema](3_Database_SQL_Server/diagram.png)
+![Database Schema](/3_Database_SQL_Server/daigram.png)
 
 The ERD shows:
 - Yellow connection points: One-to-Many relationships
