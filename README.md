@@ -57,14 +57,6 @@ Broken into **4 analytical axes:**
 | Most Active Investor | Intel Capital (527 deals) |
 | Top Country by Funding | USA ($310B) |
 
----
-
-## Tech Stack
-
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![SQL Server](https://img.shields.io/badge/SQL_Server-CC2927?style=for-the-badge&logo=microsoft-sql-server&logoColor=white)
-![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
-![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white)
 
 ---
 
@@ -130,17 +122,10 @@ Full cleaning documentation: `Project_Overview.pdf`
 
 **Star Schema in SQL Server & Power BI:**
 
-```
-                    dim_date
-                       │
-dim_investors    dim_companies ⭐    dim_offices
-       \               │               /
-        fac_investments │              /
-                        │
-        fac_funding_rounds
-        fac_acquisitions
-        fac_ipos
-```
+![Overview](/3_Database_SQL_Server/daigram.png)
+
+![Overview](/4_Data_Visualization_PowerBI/modeling.png)
+
 
 - **15 Foreign Key constraints** established in SQL Server
 - **Inactive relationships** handled with `USERELATIONSHIP()` in DAX
@@ -176,6 +161,12 @@ dim_investors    dim_companies ⭐    dim_offices
 | **Investor Network** | Top investors, activity trend, sector focus |
 | **Geographic** | Country/city distribution, avg funding per company |
 | **Strategic Insights** | 4 key findings with business value |
+
+![Overview](/4_Data_Visualization_PowerBI/Dashboard_Screenshot/1.png)
+![Funding](/4_Data_Visualization_PowerBI/Dashboard_Screenshot/2.png)
+![Journey](/4_Data_Visualization_PowerBI/Dashboard_Screenshot/3.png)
+![Investor](/4_Data_Visualization_PowerBI/Dashboard_Screenshot/4.png)
+![Geographic](/4_Data_Visualization_PowerBI/Dashboard_Screenshot/5.png)
 
 ---
 
@@ -226,7 +217,7 @@ dim_investors    dim_companies ⭐    dim_offices
 
 > This project was developed as the **Final Graduation Project** for the
 > **NTI (National Telecommunications Institute) — Data Analysis Track**
-> Cairo, Egypt — 2026
+> Benisuef, Egypt — 2026
 
 ---
 
